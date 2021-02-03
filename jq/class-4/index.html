@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .box{
+            border: 10px solid rgb(141, 128, 128);
+            padding: 15px;
+            margin: 20px;
+            /* width: 100%; */
+        }
+    </style>
+</head>
+<body style=""> 
+<!-- <body style="width: 2000px;">  -->
+    <!-- <button class="scrolltopbtn"> Scrolltopbtn</button>
+    <button class="scrollLeftbtn">scrollLeftbtn</button> -->
+
+    <div id="box" class="box">
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quasi officia, vitae natus hic sunt perspiciatis provident saepe assumenda facere id dolores consectetur sapiente eaque ducimus nulla architecto. Quae modi, excepturi quas porro iusto assumenda itaque! Sapiente, numquam perspiciatis obcaecati aliquid vitae unde facere nihil laboriosam sit, impedit neque velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eos voluptatum natus eaque aspernatur ipsum magnam eius ut voluptas sint nisi alias rerum cumque aperiam ipsa dicta, porro eveniet modi recusandae provident praesentium. Quo sit, eius saepe fuga odio delectus impedit quam obcaecati ducimus. Delectus reprehenderit dolorem dicta voluptates ipsam magnam dignissimos saepe, molestiae adipisci ex tempora, eos eligendi optio enim alias dolores repellendus nihil earum expedita eaque quidem similique aliquid ut architecto. Cumque quisquam asperiores natus voluptates debitis beatae quibusdam molestias animi, velit, laudantium, magni vel minus odio? Repellendus id eligendi molestias quidem ducimus natus aliquid dolores sed asperiores.</p>
+ 
+    </div>
+
+    <button id="hasclassbtn">HasClass</button>
+    <!-- <button class="height"> height</button>
+    <button class="width">width</button> -->
+    <!-- <button class="positionbtn"> Position</button>
+    <button class="offsetbtn">Offset</button> -->
+    
+
+    <script src="js/jQuery v3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#hasclassbtn').click(function(){
+                var x = $('#box').hasClass("box");
+                console.log(x);
+                if(x){
+                    alert('Thanks for click')
+                }else{
+                    alert('sorry')
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>

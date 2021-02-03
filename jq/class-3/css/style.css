@@ -1,0 +1,13 @@
+.box{
+    border: 10px solid #e6e3e79a; 
+    padding: 10px;
+}
+.test {
+    background-color: rgba(70, 16, 16, 0.555);
+}
+.test1{ 
+    color: white;
+}
+.test2{
+    font-size: 30px;
+}

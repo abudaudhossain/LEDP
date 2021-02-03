@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="isotopsection">
+        <h1>Isotope - filtering &amp; sorting</h1>
+        <h2>Filter</h2>
+        <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">All work</button>
+            <button class="button" data-filter=".metal">graphic desgain</button>
+            <button class="button" data-filter=".transition">web design</button>
+            <button class="button" data-filter=".alkali, .alkaline-earth">Logo design</button>
+            <button class="button" data-filter=":not(.transition)">UI/UX design</button>
+        </div>
+
+
+
+        <div class="grid">
+            <div class="element-item transition metal " data-category="transition">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="element-item metalloid " data-category="metalloid">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <div class="element-item post-transition metal " data-category="post-transition">
+                <img src="img/img4.jpg" alt="">
+            </div>
+            <div class="element-item post-transition metal " data-category="post-transition">
+                <img src="img/img5.png" alt="">
+            </div>
+            <div class="element-item transition metal " data-category="transition">
+                <img src="img/img8.jpg" alt="">
+            </div>
+            <div class="element-item alkali metal " data-category="alkali">
+                <img src="img/img9.jpg" alt="">
+            </div>
+            <div class="element-item post-transition metal " data-category="post-transition">
+                <img src="img/img5.png" alt="">
+            </div>
+            <div class="element-item post-transition metal " data-category="post-transition">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="element-item transition metal " data-category="transition">
+                <img src="img/img7.jpg" alt="">
+            </div>
+            <div class="element-item alkali metal " data-category="alkali">
+                <img src="img/img2.jpg" alt="">
+            </div>
+
+        </div>
+
+
+
+
+        <script src="js/jQuery v3.5.1.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="js/isotop.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>

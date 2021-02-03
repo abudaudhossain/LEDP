@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Mouse Events</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h2 class="heading">JQuery Mouse Events</h2>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus explicabo, animi sequi molestias perferendis ducimus accusantium distinctio facilis, tempora ipsam cum, libero recusandae? Ad, eos quam dicta delectus adipisci maxime molestiae quos cumque inventore commodi provident! Ipsa laudantium officia dolorem consequatur eveniet, aliquid ratione cum accusamus quae saepe assumenda rerum!</p>
+    </div>
+<hr>
+<hr>
+<hr>
+    <h2>jQuery keybord Events</h2>
+    <div class="box2">
+        <p class="a">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe error debitis officiis tempore dolorum quisquam, iure qui voluptate soluta, repudiandae adipisci laboriosam eligendi quas. Ex explicabo quo, iusto doloribus quam eveniet dolor eaque reiciendis omnis, nesciunt, ad error doloremque incidunt? Odit illum non repudiandae adipisci tempora fugiat voluptatem autem?</p>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <h2>jQuery Form Events</h2>
+    <table>
+        <form action="" name="form" id="form">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td>Distric</td>
+                <td>
+                    <select name="" id="select">
+                        <option value="">--select distric--</option>
+                        <option value="kg">kurigram</option>
+                        <option value="rp">Rangpur</option>
+                        <option value="dk">dhaka</option>
+                        <option value="rm">Rowmari</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        </form>
+    </table>
+    
+  
+    <script src="jQ/jQuery v3.5.1.js"></script>
+    <script src="jQ/mani.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.heading').click(function () {
+            $('.heading').text('set method');
+        })
+      
+        $('.box2').click(function () {
+            $('.a').html('<h3> set method </h3>');
+        })
+       
+
+
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    background: #B74488;
+    margin-top: 10px;
+}
+.border_exable{
+    width: 90%;
+    height: 300px;
+    background: #DC6BE8;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.box_1{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background: #2C8DE5;
+    display: block;
+    float: left;
+    border-radius:0 10px inherit inherit;
+}
+.box_2{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background: #2C8DE5;
+    display: block;
+    float: left;
+border-radius: 11px 100px / 120px;
+}
+.box_3{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background: #2C8DE5;
+    display: block;
+    float: left;
+    border-bottom-left-radius: 250px;
+    border-top-left-radius: 250px;
+}
+.box_4{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background: #2C8DE5;
+    display: block;
+    float: left;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
